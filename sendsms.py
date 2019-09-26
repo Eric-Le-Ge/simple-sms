@@ -3,9 +3,11 @@ import json
 import sys
 
 if __name__ == '__main__':
+
 	if len(sys.argv) == 1:
 		print ("Usage: \n python3 sendsms.py configuration_file.json")
 		exit()
+
 	for file_name in sys.argv[1:]:
 		with open(file_name, 'r') as f:
 			data = json.loads(f.read())
