@@ -1,6 +1,6 @@
 {
-  aws_access_key: "YOUR KEY HERE",
-  aws_secret_access_key: "YOUR KEY HERE",
-  message: "This is a test message from aws sns",
-  recipients: ["PHONE NUMBER"]
+  "aws_access_key": "YOUR KEY HERE",
+  "aws_secret_access_key": "YOUR KEY HERE",
+  "message": "This is a test message from aws sns",
+  "recipients": ["PHONE NUMBER"]
 }
